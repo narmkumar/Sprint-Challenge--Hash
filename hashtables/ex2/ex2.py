@@ -8,7 +8,7 @@ class Ticket:
 def reconstruct_trip(tickets, length):
 
     route = []
-    route_hash_table = {}
+    route_hash_table = dict()
 
     for n in tickets: ## Creating key values in hash table
         route_hash_table[n.source] = n.destination

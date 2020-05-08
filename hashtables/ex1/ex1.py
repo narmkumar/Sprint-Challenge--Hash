@@ -18,7 +18,7 @@ def get_indices_of_item_weights(weights, length, limit):
             weights_dictionary[weights[i]] = i
 
     ## Sum of weights does not equal amount of limit
-    print("Non successful operation")
+    print("None successful operation")
     return None
 
 

@@ -1,7 +1,7 @@
 def has_negatives(a):
 
     result = []
-    numbers_hash_table = {}
+    numbers_hash_table = dict()
 
     ## Iterating through the hash table and finding if absolute values exist
     for i in a:
